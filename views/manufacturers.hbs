@@ -1,0 +1,65 @@
+
+<nav class="navbar navbar-dark bg-dark">
+    <a href="http://localhost:3001/" class="navbar-brand">Главная</a>
+    <a href="http://localhost:3001/categories" class="navbar-brand">Категории</a>
+    <a href="http://localhost:3001/countries" class="navbar-brand">Страны</a>
+    <a href="http://localhost:3001/manufacturers" class="navbar-brand">Производители</a>
+    <a href="http://localhost:3001/products" class="navbar-brand">Товары</a>
+    <a href="http://localhost:3001/users" class="navbar-brand">Пользователи</a>
+    <a href="http://localhost:3001/orders" class="navbar-brand">Заказы</a>
+    <a href="http://localhost:3001/test" class="navbar-brand">Статистика</a>
+</nav>
+<h1 style="margin-left: 450px;margin-top: 50px">Добавление нового производителя</h1>
+
+<div class="container1" style="margin-top:70px; width:500px; margin-left:500px">
+    <form name="myForm" action="/manufacturer" method="post">
+        <div class="form-group row">
+            <label for="cat" class="col-sm-2 col-form-label">Производитель</label>
+            <div class="col-sm-10">
+                <input type="text" style = "width: 250px; margin-left: 20px" class="form-control" name = "cat" id="cat" placeholder="Название производителя">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="cat" class="col-sm-2 col-form-label">Страна</label>
+            <div class="col-sm-10">
+                <select style = "width: 250px; margin-left: 20px" class="form-control" name="count">
+                    {{#each posts}}
+                    <option value="{{id}}">{{name}}</option>
+                    {{/each}}
+                </select>
+            </div>
+        </div>
+        <br>
+        <button type="submit" id="btn" class="btn btn-primary">Добавить</button>
+        {{#if msg}}
+        <div> <p>{{msg}}</p></div>
+        {{/if}}
+    </form>
+</div>
+<br>
+<br>
+<table class="table" style="width: 900px; margin-left:300px">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>Название производителя</th>
+        <th>id страны производителя</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each manuf}}
+    <tr>
+        <th>{{id}}</th>
+        <td>{{name}}</td>
+        <td>{{country_id}}</td>
+        <td><a class="btn btn-primary" href="/deletemanuf/{{id}}">
+            Удалить производителя
+        </a></td>
+    </tr>
+    {{/each}}
+    </tbody>
+</table>
+<br>
+<br>
+

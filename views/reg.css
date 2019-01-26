@@ -1,0 +1,75 @@
+.header2 {
+    width: 1050px;
+    padding: 5px 0 0 5px;
+    height: 30px;
+    width: 100%;
+    background: #59463f;
+    font-size: 20px;
+    margin-top:5px;
+}
+a {
+    text-decoration: none;
+    color: #D07251;
+}
+.aa{
+    margin-left:90px;
+}
+.a2{
+    margin-left:120px;
+}
+.a3{
+    margin-left:120px;
+}
+.a4{
+    margin-left:120px;
+}
+.a5{
+    margin-left:120px;
+}
+.a6{
+    margin-left:10px;
+}
+.a7{
+    margin-left:10px;
+}
+.header1 a:hover {
+    color: white;
+}
+.form{
+    position: absolute;
+    width:200px;
+    margin-top:150px;
+    margin-left: 380px;
+}
+input{
+    width:200px;
+    height: 20px;
+}
+h1{
+    color:#59463f;
+    position: absolute;
+    margin-left: 330px;
+    margin-top:70px;
+}
+button{
+    width:170px;
+    height:50px;
+    border-radius: 3px;
+    background-color: saddlebrown;
+}
+.q{
+    color:white;
+    font-family:Comic Sans MS sans-serif;
+    font-size: 18px;
+}
+.header3{
+    margin-left: 150px;
+    width: 1000px;
+    height: 700px;
+    background-color: burlywood;
+}
+label{
+    font-family:Comic Sans MS sans-serif;
+    color:#59463f ;
+    font-size:20px;
+}

@@ -1,0 +1,39 @@
+<nav class="navbar navbar-dark bg-dark">
+    <a href="http://localhost:3001/" class="navbar-brand">Главная</a>
+    <a href="http://localhost:3001/categories" class="navbar-brand">Категории</a>
+    <a href="http://localhost:3001/countries" class="navbar-brand">Страны</a>
+    <a href="http://localhost:3001/manufacturers" class="navbar-brand">Производители</a>
+    <a href="http://localhost:3001/products" class="navbar-brand">Товары</a>
+    <a href="http://localhost:3001/users" class="navbar-brand">Пользователи</a>
+    <a href="http://localhost:3001/orders" class="navbar-brand">Заказы</a>
+    <a href="http://localhost:3001/test" class="navbar-brand">Статистика</a>
+</nav>
+<h1 style="margin-left: 450px;margin-top: 50px">Управление пользователями</h1>
+<table class="table" style="width: 900px; margin-left:300px; margin-top:100px">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>Email</th>
+        <th>Имя</th>
+        <th>Фамилия</th>
+        <th>Телефон</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each user}}
+    <tr>
+        <th>{{id}}</th>
+        <td>{{email}}</td>
+        <th>{{name}}</th>
+        <td>{{lastname}}</td>
+        <td>{{phone}}</td>
+        <td><a class="btn btn-primary" href="/deleteuser/{{id}}">
+            Удалить пользователя
+        </a></td>
+    </tr>
+    {{/each}}
+    </tbody>
+</table>
+<br>
+<br>

@@ -1,0 +1,145 @@
+.header1 {
+    width: 1050px;
+    padding: 5px 0 0 5px;
+    height: 30px;
+    width: 100%;
+    background: #59463f;
+    font-size: 20px;
+
+}
+a {
+    text-decoration: none;
+    color: #D07252;
+}
+.a1{
+    margin-left:90px;
+}
+.a2{
+    margin-left:120px;
+}
+.a3{
+    margin-left:120px;
+}
+.a4{
+    margin-left:120px;
+}
+.a5{
+    margin-left:120px;
+}
+.a6{
+    margin-left:10px;
+}
+.a7{
+    margin-left:10px;
+}
+.header1 a:hover {
+    color: white;
+}
+.met{
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+    background: url(karta.jpg) 100% 100% no-repeat;
+    background-size:contain; 
+    margin-top:10px;
+}
+.text{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 295px;
+    height: 30px;
+    font-size: 20px;
+    color: #59463f;
+}
+
+.text1{
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 40px;
+    width: 295px;
+    height: 30px;
+    font-size: 20px;
+    color: #59463f;
+}
+.clock{
+    position: absolute;
+    display: inline-block;
+    opacity: 1;
+    width: 25px;
+    height: 25px;
+    margin-left: 3px;
+    background: url(clock.jpg) 100% 100% no-repeat;
+    background-size:contain; 
+    margin-top:50px;
+}
+.logo{
+    position: absolute;
+    margin-left: 350px;
+    width: 600px;
+    height: 330px;
+    background: url(geeks.png) 100% 100% no-repeat;
+    background-size:cover; 
+}
+.velcom{
+    position: absolute;
+    display: inline-block;
+    opacity: 1;
+    width: 25px;
+    height: 25px;
+    margin-left: 3px;
+    background: url(velcom.jpg) 100% 100% no-repeat;
+    background-size:contain; 
+    margin-top:120px;
+}
+.text2{
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 40px;
+    color: #59463f;
+    width: 295px;
+    height: 30px;
+    font-size: 15px;
+}
+.mts{
+    position: absolute;
+    display: inline-block;
+    opacity: 1;
+    width: 25px;
+    height: 25px;
+    margin-left: 3px;
+    background: url(mts.png) 100% 100% no-repeat;
+    background-size:contain; 
+    margin-top:170px;
+}
+.text3{
+    position: absolute;
+    margin-top: 172px;
+    margin-left: 40px;
+    color: #59463f;
+    width: 295px;
+    height: 30px;
+    font-size: 15px;
+}
+.life{
+    position: absolute;
+    display: inline-block;
+    opacity: 1;
+    width: 25px;
+    height: 25px;
+    margin-left: 3px;
+    background: url(life.png) 100% 100% no-repeat;
+    background-size:contain; 
+    margin-top:220px;
+}
+.text4{
+    position: absolute;
+    margin-top: 222px;
+    margin-left: 40px;
+    color: #59463f;
+    width: 295px;
+    height: 30px;
+    font-size: 15px;
+}
